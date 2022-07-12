@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .login {
+        width: 400px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        
+
+        &__btn {
+            width: 100px;
+            height: 30px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            background-color: black;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+}

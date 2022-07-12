@@ -1,0 +1,22 @@
+.overview {
+    &__header {
+        display: flex;
+        justify-content: space-between; 
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 30px;
+    }
+
+    &__statistics {
+        margin-top: 70px;
+        
+        span {
+            display: block;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    }
+}

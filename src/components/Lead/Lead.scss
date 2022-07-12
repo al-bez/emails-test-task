@@ -1,0 +1,26 @@
+.lead {
+    width: 100%;
+    &__title {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 100%;
+        border: 2px solid rgb(65, 65, 65);
+        color: rgb(112, 112, 112);
+        text-align: center;
+        font-size: 30px;
+        border-radius: 7px;
+        padding: 5px 0;
+    }
+
+    &__text {
+        min-height: 600px;
+        width: 100%;
+        border: 1px solid;
+        border: 2px solid rgb(69, 65, 65);
+        border-radius: 5px;
+        color: rgb(59, 59, 59);
+        font-size: 19px;
+        padding: 30px;
+        margin-top: 30px;
+    }
+}
